@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	inteiros.MostraInteiros()
+	variaveis.RestoVariaveis()
 }
