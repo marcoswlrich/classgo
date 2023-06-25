@@ -1,4 +1,4 @@
-package inteiros
+package variaveis
 
 import "fmt"
 
