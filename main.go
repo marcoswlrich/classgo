@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/marcoswlrich/classgo/exercicios"
 	"github.com/marcoswlrich/classgo/variaveis"
 )
 
@@ -26,4 +27,8 @@ func main() {
 		fmt.Printf("%s \n", os)
 
 	}
+
+	testEx, returnEx := exercicios.ConvNum("101")
+	fmt.Println(testEx)
+	fmt.Println(returnEx)
 }
