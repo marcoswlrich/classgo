@@ -1,11 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"strconv"
-
-	"github.com/marcoswlrich/classgo/exercicios"
-	"github.com/marcoswlrich/classgo/teclado"
+	"github.com/marcoswlrich/classgo/files"
 )
 
 func main() {
@@ -27,15 +23,19 @@ func main() {
 	// 	fmt.Printf("%s \n", os)
 	//
 	// }
-	texto := "42.55"
+	// texto := "42.55"
+	//
+	// b, _ := strconv.ParseFloat(texto, 64)
+	// fmt.Printf("%T \n", b)
+	// fmt.Println(b)
+	//
+	// testEx, returnEx := exercicios.ConvNum("101")
+	// fmt.Println(testEx)
+	// fmt.Println(returnEx)
+	//
+	// teclado.AddNum()
 
-	b, _ := strconv.ParseFloat(texto, 64)
-	fmt.Printf("%T \n", b)
-	fmt.Println(b)
-
-	testEx, returnEx := exercicios.ConvNum("101")
-	fmt.Println(testEx)
-	fmt.Println(returnEx)
-
-	teclado.AddNum()
+	// files.GravaTabela()
+	// files.AddTabela()
+	files.LerArquivo()
 }
