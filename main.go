@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/marcoswlrich/classgo/files"
+	"github.com/marcoswlrich/classgo/webserver"
 )
 
 func main() {
@@ -37,5 +37,17 @@ func main() {
 
 	// files.GravaTabela()
 	// files.AddTabela()
-	files.LerArquivo()
+	// files.LerArquivo()
+
+	// canal1 := make(chan bool)
+	// go goroutines.NomeLento("Marcos Wlrich", canal1)
+	//
+	// defer func() {
+	// 	<-canal1
+	// }()
+	// fmt.Println("Estou aqui")
+	// // var x string
+	// // fmt.Scanln(&x)
+	//
+	webserver.WebServer()
 }
